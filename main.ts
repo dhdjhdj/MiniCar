@@ -42,20 +42,20 @@ enum LED_color {
 }
 enum pwm_led_l {
     //% black="red"
-    pwm_red_r = 0x08,
+    L_pwm_red = 0x08,
     //% black="green"
-    pwm_green_r = 0x07,
+    L_pwm_green = 0x07,
     //% black="blue"
-    pwm_blue_r = 0x06,
+    L_pwm_blue = 0x06,
 }
 
 enum pwm_led_r {
     //% black="red"
-    pem_red_l = 0x05,
+    R_pem_red = 0x09,
     //% black="green"
-    pwm_green_l = 0x0a,
+    R_pwm_green = 0x0a,
     //% black="blue"
-    pwm_blue_l = 0x09,
+    R_pwm_blue = 0x05,
 }
 
 //% color="#AA278D"
